@@ -60,7 +60,7 @@ function App() {
 
   return (
     <div className="max-w-2xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-6 text-center">Cadastro de Pessoas</h1>
+      <h1 className="text-2xl font-bold mb-6 text-center">Cadastro de Clientes</h1>
 
       {/* Formulário */}
       <form onSubmit={handleAddPessoa} className="mb-8 space-y-4">
