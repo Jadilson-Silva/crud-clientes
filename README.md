@@ -1,4 +1,4 @@
-# 🧑‍💼 CRUD de Clientes
+#  CRUD de Clientes
 
 Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** de clientes, com **frontend em React 19** e **backend em Node.js com Express**, ambos utilizando **TypeScript**.
 
