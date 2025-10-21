@@ -3,8 +3,13 @@
 Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** de clientes, com **frontend em React 19** e **backend em Node.js com Express**, ambos utilizando **TypeScript**.
 
 ---
-```markdown
-![Tela de listagem de clientes](screenshot.png)
+
+<!-- Exibindo a imagem de tela -->
+<h3>Tela de Listagem de Clientes:</h3>
+<img src="screenshot.png" alt="Tela de listagem de clientes" style="max-width: 100%; height: auto;">
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 ### 📦 Backend (Node.js + Express + TypeScript)
@@ -43,4 +48,4 @@ Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** d
 
 ```bash
 git clone https://github.com/Jadilson-Silva/crud-clientes.git
-cd seu-repositorio
+cd crud-clientes
