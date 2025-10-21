@@ -10,9 +10,9 @@ Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** d
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
-### 📦 Backend (Node.js + Express + TypeScript)
+###  Backend (Node.js + Express + TypeScript)
 
 - **Node.js** – Ambiente de execução JavaScript
 - **Express** – Framework web para construção de APIs
@@ -20,7 +20,7 @@ Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** d
 - **ts-node-dev** – Hot reload durante o desenvolvimento
 - **@types/node** e **@types/express** – Tipagens para uso com TypeScript
 
-### 💻 Frontend (React + Tailwind + Vite)
+###  Frontend (React + Tailwind + Vite)
 
 - **React 19** – Biblioteca para construção de interfaces
 - **Vite** – Bundler moderno e rápido para desenvolvimento
@@ -31,18 +31,18 @@ Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** d
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
-- ✅ Cadastro de clientes
-- ✅ Listagem de todos os clientes
-- ✅ Edição de dados dos clientes
-- ✅ Remoção de clientes
-- ✅ Interface responsiva e moderna com Tailwind CSS
-- ✅ API RESTful com rotas separadas para cada operação
+-  Cadastro de clientes
+-  Listagem de todos os clientes
+-  Edição de dados dos clientes
+-  Remoção de clientes
+-  Interface responsiva e moderna com Tailwind CSS
+-  API RESTful com rotas separadas para cada operação
 
 ---
 
-## 🛠️ Como Rodar o Projeto
+##  Como Rodar o Projeto
 
 ### 1. Clone o repositório
 
@@ -50,4 +50,4 @@ Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** d
 git clone https://github.com/Jadilson-Silva/crud-clientes.git
 cd crud-clientes
 npm install para instalar as dependencias
-npm rum dev prs executar o projeto
+npm rum dev pra executar o projeto
