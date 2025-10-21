@@ -49,3 +49,5 @@ Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** d
 ```bash
 git clone https://github.com/Jadilson-Silva/crud-clientes.git
 cd crud-clientes
+npm install para instalar as dependencias
+npm rum dev prs executar o projeto
