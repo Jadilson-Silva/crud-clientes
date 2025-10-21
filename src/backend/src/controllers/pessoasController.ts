@@ -13,3 +13,10 @@ export const addPessoa = (pessoa: { nome: string; idade: number; email: string }
 export const deletePessoa = (id: number) => {
   db.prepare('DELETE FROM pessoas WHERE id = ?').run(id);
 };
+
+export function updatePessoa(id: number, data: { nome: string; idade: number; email: string }) {
+  const stmt = db.prepare(
+    'UPDATE pessoas SET nome = ?, idade = ?, email = ? WHERE id = ?'
+  );
+  stmt.run(data.nome, data.idade, data.email, id);
+}

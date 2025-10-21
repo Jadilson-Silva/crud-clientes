@@ -1,73 +1,46 @@
-# React + TypeScript + Vite
+# 🧑‍💼 CRUD de Clientes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um sistema completo de **CRUD (Create, Read, Update, Delete)** de clientes, com **frontend em React 19** e **backend em Node.js com Express**, ambos utilizando **TypeScript**.
 
-Currently, two official plugins are available:
+---
+```markdown
+![Tela de listagem de clientes](screenshot.png)
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📦 Backend (Node.js + Express + TypeScript)
 
-## React Compiler
+- **Node.js** – Ambiente de execução JavaScript
+- **Express** – Framework web para construção de APIs
+- **TypeScript** – Tipagem estática para maior segurança
+- **ts-node-dev** – Hot reload durante o desenvolvimento
+- **@types/node** e **@types/express** – Tipagens para uso com TypeScript
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 💻 Frontend (React + Tailwind + Vite)
 
-## Expanding the ESLint configuration
+- **React 19** – Biblioteca para construção de interfaces
+- **Vite** – Bundler moderno e rápido para desenvolvimento
+- **Tailwind CSS** – Framework de CSS utilitário para estilização
+- **TypeScript** – Tipagem estática também no frontend
+- **ESLint** – Linter para manter a qualidade do código
+- **@vitejs/plugin-react** – Integração React com Vite
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ⚙️ Funcionalidades
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- ✅ Cadastro de clientes
+- ✅ Listagem de todos os clientes
+- ✅ Edição de dados dos clientes
+- ✅ Remoção de clientes
+- ✅ Interface responsiva e moderna com Tailwind CSS
+- ✅ API RESTful com rotas separadas para cada operação
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Como Rodar o Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 1. Clone o repositório
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
+git clone https://github.com/Jadilson-Silva/crud-clientes.git
+cd seu-repositorio
